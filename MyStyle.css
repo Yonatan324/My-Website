@@ -1,0 +1,100 @@
+
+
+.left-popeye {
+    position:relative;
+    width: 15vw;
+
+}
+.right-popeye{
+    position: relative;
+    width: 15vw;
+
+}
+.middle-popeye{
+    width: 15vw;
+}
+
+.middle-container{
+    position: relative;
+    margin: 5%;
+    text-align: center;
+
+}
+@font-face {
+    font-family: ATLASFONTS;
+    src: url(./Yellowtail-Regular.ttf);
+}
+.title-text{
+    text-align: center;
+    font-size: 2.9vw;
+    font-family: ATLASFONTS;
+}
+body{
+    color: white; /* Set the text color */
+    text-shadow: 
+      -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000;
+      text-align: center;
+      font-size: 1.9vw;
+}
+.video{
+    position: fixed;
+    object-fit: cover;
+    z-index: -1;
+ 
+}
+.top-container{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+.skills-and-hobbies{
+    gap: 10vw;
+    display: grid;
+    margin-bottom: 20vw;
+}
+.Spinach > img
+{
+    border-radius: 60%;
+    width: 15vw;
+    height: 15vw;
+}
+.Spinach{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12vw;
+}
+.detail-container{
+    line-height: 2;
+}
+a{
+    background: #92cecf;
+    border-radius: 12px;
+    font-family: sans-serif;
+    color: #f4f4f4;
+    font-size: 5vw;
+    padding: 10px 20px 10px 20px;
+    justify-content: center;
+    align-items: center;
+}
+a:hover{
+    background-color: #b12598a1;
+}
+hr{
+        border: dotted #ebf9fb 6px;
+        border-bottom: none;
+        width: 8vw;
+        margin: 50px auto;
+}
+.Get-in-touch{
+    margin: 10vw;
+    line-height: 2;
+}
+b:hover{
+color: rgb(191, 43, 43);
+}
